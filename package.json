@@ -1,0 +1,13 @@
+{
+  "name": "save-contact",
+  "version": "1.0.0",
+  "description": "Contact manager app",
+  "main": "servernpm i.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
