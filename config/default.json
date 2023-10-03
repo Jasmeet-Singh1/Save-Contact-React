@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://jassoffline586:Avisingh00@savecontact.gqryvpp.mongodb.net/?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://jassoffline586:Avisingh00@savecontact.gqryvpp.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
