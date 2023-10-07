@@ -20,10 +20,15 @@
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.5"
+    "mongoose": "^5.9.5",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^3.0.3"
   }
 }
