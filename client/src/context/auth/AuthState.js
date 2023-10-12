@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import AuthContext from './authContext';
 import setAuthToken from '../../utils/setAuthToken';
@@ -40,6 +40,9 @@ const AuthState = (props) => {
       dispatch({ type: AUTH_ERROR });
     }
   };
+  useEffect(() => {
+    loadUser();
+  }, []);
 
   // Register User
   const register = async (formData) => {
